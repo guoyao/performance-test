@@ -5,7 +5,7 @@ int fibonacci(n) {
 }
 
 int main() {
-  // printf("%d", fibonacci(45));
-  fibonacci(40);
+  printf("%d", fibonacci(45));
+  //fibonacci(40);
   return 0;
 }

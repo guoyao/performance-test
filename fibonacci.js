@@ -4,6 +4,6 @@
 		return n < 2 ? n : fibonacci(n - 2) + fibonacci(n - 1);
 	}
 
-	fibonacci(40);
-	// console.log(fibonacci(40));
+	//fibonacci(40);
+	console.log(fibonacci(45));
 })();

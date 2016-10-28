@@ -4,5 +4,5 @@ def fibonacci (n):
     else:
         return fibonacci(n - 2) + fibonacci(n - 1)
 
-# fibonacci(40)
-fibonacci(45)
+print(fibonacci(40))
+#fibonacci(45)

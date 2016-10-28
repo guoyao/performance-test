@@ -5,7 +5,7 @@ class Fibonacci
 	}
 
 	public static void main(String[] args) {
-		// System.out.println(fibonacci(40));
-		fibonacci(40);
+		System.out.println(fibonacci(45));
+		//fibonacci(40);
 	}
 }

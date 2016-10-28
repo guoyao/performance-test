@@ -1,0 +1,14 @@
+fn main() {
+    let term = 45;
+    let fib_number = get_fib_term_recursive(term);
+    println!("Dynamic Term number {} is {}",term, fib_number);
+}
+
+fn get_fib_term_recursive(term: usize) -> u32 {
+    match term {
+        0 =>  0,
+        1 =>  1,
+        _ => get_fib_term_recursive(term-1) + get_fib_term_recursive(term-2),
+    }
+}
+
